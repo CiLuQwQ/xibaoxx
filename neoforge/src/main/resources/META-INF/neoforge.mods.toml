@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "xibaoxx"
+version = "${version}"
+displayName = "喜报 ××"
+authors = ""
+description = '''
+喜报：你又掉线辣！
+'''
+#logoFile = ""
+
+[[dependencies.xibaoxx]]
+modId = "cloth_config"
+type = "required"
+versionRange = "[1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[mixins]]
+config = "xibaoxx.mixins.json"

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "xibaoxx",
+  "version": "${version}",
+  "name": "喜报 ××",
+  "description": "喜报：你又掉线辣！",
+  "authors": [
+    "cilu"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.ciluqwq.xibaoxx.fabric.XibaoxxFabric"
+    ],
+    "client": [
+      "io.github.ciluqwq.xibaoxx.fabric.client.XibaoxxFabricClient"
+    ]
+  },
+  "mixins": [
+    "xibaoxx.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.21",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
